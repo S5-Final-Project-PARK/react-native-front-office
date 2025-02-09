@@ -40,7 +40,7 @@ export default function Login({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Form fields={loginFields} onSubmit={handleLogin} formTitle="Log in to Cookscape" buttonTitle="Log in" />
+      <Form fields={loginFields} onSubmit={handleLogin} formTitle="Welcome to Cookscape" buttonTitle="Log in" />
       <Text style={styles.link} onPress={() => navigation.navigate("SignUp")}>
         Don't have an account? Sign Up
       </Text>

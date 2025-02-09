@@ -6,8 +6,8 @@ import OtypeNumber from "../components/organisms/OtypeNumber";
 
 export default function Home({ navigation, route }) {
     const imageProps = {
-        width: 150,
-        height: 150,
+        width: 200,
+        height: 200,
         source: require("../../assets/img/images.jpg")
     };
 
